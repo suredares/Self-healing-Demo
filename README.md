@@ -37,9 +37,9 @@ docker stop nginx
 
 Then watch:
 
-1. http://localhost:9090/alerts — `NginxDown` goes *pending*, then *firing* (~30–40s)
-2. `docker logs -f responder` — you'll see the webhook arrive and the restart happen
-3. `docker ps` — nginx is back, uptime a few seconds
+1. http://localhost:9090/alerts - `NginxDown` goes *pending*, then *firing* (~30–40s)
+2. `docker logs -f responder` - you'll see the webhook arrive and the restart happen
+3. `docker ps` - nginx is back, uptime a few seconds
 
 Whole loop takes roughly 45–60 seconds with the settings in this repo.
 
@@ -53,4 +53,4 @@ politely. The circuit breaker in the responder stops after 3 restarts in 10 minu
 
 ## License
 
-MIT — use it, break it, learn from it.
+MIT - use it, break it, learn from it.
