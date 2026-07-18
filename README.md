@@ -5,7 +5,8 @@ A minimal self-healing pipeline: **Prometheus → Alertmanager → webhook → a
 When nginx dies, Prometheus notices, Alertmanager fires a webhook, and a ~50-line
 Python responder restarts the container. No paid tools, no operators, runs on a laptop.
 
-Full write-up: https://dev.to/surebabunarayanan/my-nginx-died-on-a-saturday-so-i-taught-it-to-fix-itself-4bo1
+Full write-up: [My nginx died on a Saturday, so I taught it to fix itself]
+https://dev.to/surebabunarayanan/my-nginx-died-on-a-saturday-so-i-taught-it-to-fix-itself-4bo1
 
 ## Stack
 
